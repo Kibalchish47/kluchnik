@@ -11,6 +11,20 @@ The ESP32 firmware uses the data from the MPU-6050 to open a digital "gate" for 
 
 The generated 128-bit key is encrypted on the device using **AES-128-CBC** (`mbedtls`) and is transmitted over Wi-Fi to the desktop application.
 
+## ✨ Features
+
+- **True Randomness:** Gathers entropy from two physical sources (chaotic motion and oscillator jitter).
+
+- **Secure On-Device Encryption:** Encrypts the generated 128-bit key using the robust AES-128-CBC standard via the `mbedtls` library.
+
+- **Wi-Fi Access Point:** Creates a local Wi-Fi network for the client application to connect to.
+
+- **TCP Server:** Transmits the encrypted key and user settings securely over a TCP socket.
+
+- **Onboard Interface:** Allows for full configuration via a 1.3" OLED display and three push-buttons.
+
+- **Remote Controllable:** The device's menu can be fully controlled by the desktop client application.
+
 ## **🔌 Hardware Components**
 To build the device, you will need:
 - ESP32 Dev Kit C board
