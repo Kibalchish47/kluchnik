@@ -1,6 +1,11 @@
 # **Hardware TRNG "Kluchnik" — ESP32 Firmware**
 
-This is the firmware repository for the "Kluchnik" hardware True Random Number Generator (TRNG). The firmware is written in C++ using the Arduino framework and is designed for the ESP32 Dev Kit C board.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Platform](https://img.shields.io/badge/platform-ESP32-blue.svg)](https://www.espressif.com/en/products/socs/esp32)
+[![Framework](https://img.shields.io/badge/framework-Arduino-00979D.svg)](https://www.arduino.cc/)
+[![IDE](https://img.shields.io/badge/IDE-PlatformIO-F78A06.svg)](https://platformio.org/)
+
+This is the firmware repository for the "Kluchnik" hardware **True Random Number Generator** (TRNG). The firmware is written in **C++** using the Arduino framework and is designed for the ESP32 Dev Kit C board.
 
 ## **⚙️ How it Works**
 The device generates true random numbers by using two sources of physical entropy:
